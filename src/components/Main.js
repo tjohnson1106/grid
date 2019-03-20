@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { View, Text, StyleSheet, Image, ScrollView } from "react-native";
+import { StyleSheet, ScrollView } from "react-native";
 
 import Header from "./Header";
+import Banner from "./Banner";
 
 class Main extends Component {
   state = {};
@@ -9,6 +10,7 @@ class Main extends Component {
     return (
       <ScrollView style={styles.root}>
         <Header />
+        <Banner />
       </ScrollView>
     );
   }
